@@ -1,11 +1,203 @@
 2:I[25250,["8792","static/chunks/8792-1008f0a9ba914e5d.js","7894","static/chunks/app/(contents)/layout-859b18758eb527ec.js"],""]
 3:I[52148,["8792","static/chunks/8792-1008f0a9ba914e5d.js","7894","static/chunks/app/(contents)/layout-859b18758eb527ec.js"],""]
-4:I[81749,["3067","static/chunks/c24cc598-2cbcb84d2b01d13c.js","1244","static/chunks/1244-7dd87e3975005240.js","8792","static/chunks/8792-1008f0a9ba914e5d.js","1749","static/chunks/1749-2cefff3767412ab5.js","1931","static/chunks/app/page-eea35426a7d35f61.js"],"Image"]
-5:I[20718,["3067","static/chunks/c24cc598-2cbcb84d2b01d13c.js","1244","static/chunks/1244-7dd87e3975005240.js","8792","static/chunks/8792-1008f0a9ba914e5d.js","1749","static/chunks/1749-2cefff3767412ab5.js","1931","static/chunks/app/page-eea35426a7d35f61.js"],""]
-6:I[52869,["3067","static/chunks/c24cc598-2cbcb84d2b01d13c.js","1244","static/chunks/1244-7dd87e3975005240.js","8792","static/chunks/8792-1008f0a9ba914e5d.js","1749","static/chunks/1749-2cefff3767412ab5.js","1931","static/chunks/app/page-eea35426a7d35f61.js"],""]
-8:I[5613,[],""]
-9:I[31778,[],""]
-7:[]
-0:["arWldCSQdJaotfVkdpo9T",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},["$L1",[["$","div",null,{"className":"page-header-wrapper","children":["$","header",null,{"className":"page-header","children":[["$","div",null,{"className":"home-section","children":["$","$L2",null,{"className":"link","href":"/","children":"na-log"}]}],["$","div",null,{"className":"category-section","children":[["$","$L2",null,{"className":"link","href":"/write","children":"write"}],["$","$L2",null,{"className":"link","href":"/about","children":"about"}],["$","$L3",null,{"initialPosts":[]}]]}]]}]}],["$","main",null,{"className":"home-wrapper","children":[["$","div",null,{"className":"bio","children":[["$","$L4",null,{"className":"bio-profile","src":"profile.png","alt":"profile","width":200,"height":200}],["$","div",null,{"className":"bio-content","children":["$","$L5",null,{"content":"\n**Gogumi's Study Blog** :\n**G**ogumi의\n**T**rouble **S**hooting 일지"}]}]]}],["$","div",null,{"className":"post-container","children":["$","$L6",null,{"initialPosts":"$7"}]}]]}]],null]]},[null,["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"}]}],["$","body",null,{"children":["$","div",null,{"className":"page-wrapper","children":[["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":[["$","link","0",{"rel":"stylesheet","href":"/Blog/_next/static/css/1a2bc1315f96f886.css","precedence":"next","crossOrigin":""}]]}],["$","div",null,{"className":"footer-wrapper","children":["$","footer",null,{"className":"page-footer","children":"copyright © 2024 by NerdAnimals"}]}]]}]}]]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/Blog/_next/static/css/ef2b8d8a3b83e974.css","precedence":"next","crossOrigin":""}]],"$La"]]]]
-a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"na-log"}],["$","meta","3",{"name":"description","content":"This is Developer Blog of Nerd-Animals Team"}],["$","meta","4",{"property":"og:title","content":"na-log"}],["$","meta","5",{"property":"og:description","content":"This is Developer Blog of Nerd-Animals Team"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"na-log"}],["$","meta","8",{"name":"twitter:description","content":"This is Developer Blog of Nerd-Animals Team"}],["$","link","9",{"rel":"icon","href":"/Blog/favicon.ico","type":"image/x-icon","sizes":"64x64"}]]
+5:I[81749,["3067","static/chunks/c24cc598-2cbcb84d2b01d13c.js","1244","static/chunks/1244-7dd87e3975005240.js","8792","static/chunks/8792-1008f0a9ba914e5d.js","1749","static/chunks/1749-2cefff3767412ab5.js","1931","static/chunks/app/page-eea35426a7d35f61.js"],"Image"]
+6:I[20718,["3067","static/chunks/c24cc598-2cbcb84d2b01d13c.js","1244","static/chunks/1244-7dd87e3975005240.js","8792","static/chunks/8792-1008f0a9ba914e5d.js","1749","static/chunks/1749-2cefff3767412ab5.js","1931","static/chunks/app/page-eea35426a7d35f61.js"],""]
+7:I[52869,["3067","static/chunks/c24cc598-2cbcb84d2b01d13c.js","1244","static/chunks/1244-7dd87e3975005240.js","8792","static/chunks/8792-1008f0a9ba914e5d.js","1749","static/chunks/1749-2cefff3767412ab5.js","1931","static/chunks/app/page-eea35426a7d35f61.js"],""]
+e:I[5613,[],""]
+f:I[31778,[],""]
+4:Tdc0,    
+## 09:00 ~ 11:00 [Live 강의] 알고리즘 Stack 2
+
+<aside>💡 **계산기 1 과 계산기 2 의 정확한 의미**
+
+- 계산기1 : 전위 표기법을 후위 표기법으로 전환해주는 계산기
+- 계산기2 : 후위 표기법으로 변환된 계산식을 계산하여 결과값을 출력하는 계산기</aside>
+<br/>
+### 🧮 계산기1
+
+계산식이 문자열로 주어질 때, 스택(Stack)을 이용해 결과 값을 계산
+
+> 📢 **문자열 수식 계산의 일반적 방법**
+> 
+> 
+> 
+> 1. 중위 표기법의 수식 → 후위 표기법으로 변경하여 **스택(stack)을 이용하여 계산**
+>     
+>     <aside>💡 **중위 표기법**(infix notation)
+>     
+>     연산자를 피연산자의 가운데 표기하는 방법  e.g.) A + B
+>     **후위 표기법**(postfix notation)
+>     연산자를 피연산자 뒤에 표기하는 방법   e.g.) AB +</aside>
+
+<br/>
+### ✔ 중위표기법 → 후위표기법 변환 방법 1
+
+1. 괄호를 사용하여 우선순위에 따라 수식의 연산자를 다시 표현함
+2. 각 연산자를 그에 대응하는 오른쪽 괄호 뒤로 이동시킴
+3. 괄호를 제거함
+
+```
+<예제>
+A * B - C / D
+
+a단계.  ((A * B) - (C / D))
+b단계.  ((AB)* (CD)/)-
+c단계.  AB*CD/-
+```
+
+### ✔ 중위표기법 → 후위표기법 변환 방법 2 (Stack 이용)
+
+1. 입력 받은 중위 표기식에서 토큰을 읽음
+2. 토큰이 피연산자이면 토큰을 출력함
+3. 토큰이 연산자(괄호 포함)일 때, 이 토큰이 스택의 **`top`**에 저장되어 있는 연산자보다 우선순위가 높으면 스택에 **`push()`**하고, 그렇지 않다면 스택 **`top`**의 연산자의 우선순위가 토큰의 우선순위보다 작을 때까지 스택에서 **`pop()`**한 후 토큰의 연산자를 **`push()`**함
+    
+    (만약, **`top`**에 연산자가 없다면 **`push()`**함)
+    
+4. 토큰이 오른쪽 괄호’)’이면 스택 **`top`**에 왼쪽 괄호 ‘**(**’가 올 때까지 스택에 **`pop()`** 연산을 수행하고 **`pop()`**한 연산자를 출력함 (단, 왼쪽 괄호를 만나면 **`pop()`**만 하고 출력하지는 않음)
+5. 중위 표기식에 더 읽을 것이 없다면 중지하고, 더 읽을 것이 있다면 a번부터 다시 반복함
+6. 스택에 남아 있는 연산자를 모두 **`pop()`**하여 출력함
+    
+    *(스택 밖의 왼쪽 괄호는 우선 순위가 가장 높으며, 스택 안의 왼쪽 괄호는 우선 순위가 가장 낮음)*
+    
+    | 토큰 | isp(in-stack priority) | icp(in-coming priority) |
+    | --- | --- | --- |
+    | ) | - | - |
+    | *, / | 2 | 2 |
+    | +, - | 1 | 1 |
+    | ( | 0 | 3 |
+    
+    ```
+    if (icp > isp)
+    		push()
+    else
+    		pop()
+    ```
+    
+    > 영상 넣기
+    > 
+    
+
+### 🧮 계산기2
+
+후위 표기법의 수식을 스택을 이용하여 계산
+
+1. 피연산자를 만나면 스택에 **`push()`**함
+2. 연산자를 만나면 필요한 만큼의 피연산자를 스택에서 **`pop()`**하여 연산하고, 연산 결과를 다시 스택에 **`push()`**함
+3. 수식이 끝나면, 마지막으로 스택을 **`pop()`**하여 출력함
+
+> 영상 넣기
+> 
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/18da2bcd-a353-4eeb-8049-2530a90fee35/24209fb2-1de3-423f-9c44-50637eccfcee/Untitled.png)
+
+### 백트래킹 (Backtracking) 기법
+
+### 연습문제
+
+### 💡 수식문자열을 후위식으로 변환
+
+- 2 + 3 * 4 / 5
+    - 내 답안: 2 3 4 * 5 / +
+- 2 + 3 * 4 + 5
+    - 내 답안: 2 3 4 * + 5 +b:["SSAFY"]
+c:["Stack(2)"]
+a:{"title":"24.08.09.(금) - 스택(Stack)","summary":"스택(Stack) - 전위 표기법과 후위 표기법, 계산기, 백트래킹 기법","author":"Gogumi","tags":"$b","date":"$D2024-08-09T00:00:00.000Z","slug":"$c"}
+d:Tdc0,    
+## 09:00 ~ 11:00 [Live 강의] 알고리즘 Stack 2
+
+<aside>💡 **계산기 1 과 계산기 2 의 정확한 의미**
+
+- 계산기1 : 전위 표기법을 후위 표기법으로 전환해주는 계산기
+- 계산기2 : 후위 표기법으로 변환된 계산식을 계산하여 결과값을 출력하는 계산기</aside>
+<br/>
+### 🧮 계산기1
+
+계산식이 문자열로 주어질 때, 스택(Stack)을 이용해 결과 값을 계산
+
+> 📢 **문자열 수식 계산의 일반적 방법**
+> 
+> 
+> 
+> 1. 중위 표기법의 수식 → 후위 표기법으로 변경하여 **스택(stack)을 이용하여 계산**
+>     
+>     <aside>💡 **중위 표기법**(infix notation)
+>     
+>     연산자를 피연산자의 가운데 표기하는 방법  e.g.) A + B
+>     **후위 표기법**(postfix notation)
+>     연산자를 피연산자 뒤에 표기하는 방법   e.g.) AB +</aside>
+
+<br/>
+### ✔ 중위표기법 → 후위표기법 변환 방법 1
+
+1. 괄호를 사용하여 우선순위에 따라 수식의 연산자를 다시 표현함
+2. 각 연산자를 그에 대응하는 오른쪽 괄호 뒤로 이동시킴
+3. 괄호를 제거함
+
+```
+<예제>
+A * B - C / D
+
+a단계.  ((A * B) - (C / D))
+b단계.  ((AB)* (CD)/)-
+c단계.  AB*CD/-
+```
+
+### ✔ 중위표기법 → 후위표기법 변환 방법 2 (Stack 이용)
+
+1. 입력 받은 중위 표기식에서 토큰을 읽음
+2. 토큰이 피연산자이면 토큰을 출력함
+3. 토큰이 연산자(괄호 포함)일 때, 이 토큰이 스택의 **`top`**에 저장되어 있는 연산자보다 우선순위가 높으면 스택에 **`push()`**하고, 그렇지 않다면 스택 **`top`**의 연산자의 우선순위가 토큰의 우선순위보다 작을 때까지 스택에서 **`pop()`**한 후 토큰의 연산자를 **`push()`**함
+    
+    (만약, **`top`**에 연산자가 없다면 **`push()`**함)
+    
+4. 토큰이 오른쪽 괄호’)’이면 스택 **`top`**에 왼쪽 괄호 ‘**(**’가 올 때까지 스택에 **`pop()`** 연산을 수행하고 **`pop()`**한 연산자를 출력함 (단, 왼쪽 괄호를 만나면 **`pop()`**만 하고 출력하지는 않음)
+5. 중위 표기식에 더 읽을 것이 없다면 중지하고, 더 읽을 것이 있다면 a번부터 다시 반복함
+6. 스택에 남아 있는 연산자를 모두 **`pop()`**하여 출력함
+    
+    *(스택 밖의 왼쪽 괄호는 우선 순위가 가장 높으며, 스택 안의 왼쪽 괄호는 우선 순위가 가장 낮음)*
+    
+    | 토큰 | isp(in-stack priority) | icp(in-coming priority) |
+    | --- | --- | --- |
+    | ) | - | - |
+    | *, / | 2 | 2 |
+    | +, - | 1 | 1 |
+    | ( | 0 | 3 |
+    
+    ```
+    if (icp > isp)
+    		push()
+    else
+    		pop()
+    ```
+    
+    > 영상 넣기
+    > 
+    
+
+### 🧮 계산기2
+
+후위 표기법의 수식을 스택을 이용하여 계산
+
+1. 피연산자를 만나면 스택에 **`push()`**함
+2. 연산자를 만나면 필요한 만큼의 피연산자를 스택에서 **`pop()`**하여 연산하고, 연산 결과를 다시 스택에 **`push()`**함
+3. 수식이 끝나면, 마지막으로 스택을 **`pop()`**하여 출력함
+
+> 영상 넣기
+> 
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/18da2bcd-a353-4eeb-8049-2530a90fee35/24209fb2-1de3-423f-9c44-50637eccfcee/Untitled.png)
+
+### 백트래킹 (Backtracking) 기법
+
+### 연습문제
+
+### 💡 수식문자열을 후위식으로 변환
+
+- 2 + 3 * 4 / 5
+    - 내 답안: 2 3 4 * 5 / +
+- 2 + 3 * 4 + 5
+    - 내 답안: 2 3 4 * + 5 +9:{"frontMatter":"$a","content":"$d"}
+8:["$9"]
+0:["Xgk0IxUKlQnPtPOBIxXyy",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},["$L1",[["$","div",null,{"className":"page-header-wrapper","children":["$","header",null,{"className":"page-header","children":[["$","div",null,{"className":"home-section","children":["$","$L2",null,{"className":"link","href":"/","children":"na-log"}]}],["$","div",null,{"className":"category-section","children":[["$","$L2",null,{"className":"link","href":"/write","children":"write"}],["$","$L2",null,{"className":"link","href":"/about","children":"about"}],["$","$L3",null,{"initialPosts":[{"frontMatter":{"title":"24.08.09.(금) - 스택(Stack)","summary":"스택(Stack) - 전위 표기법과 후위 표기법, 계산기, 백트래킹 기법","author":"Gogumi","tags":["SSAFY"],"date":"$D2024-08-09T00:00:00.000Z","slug":["Stack(2)"]},"content":"$4"}]}]]}]]}]}],["$","main",null,{"className":"home-wrapper","children":[["$","div",null,{"className":"bio","children":[["$","$L5",null,{"className":"bio-profile","src":"profile.png","alt":"profile","width":200,"height":200}],["$","div",null,{"className":"bio-content","children":["$","$L6",null,{"content":"\n**Gogumi's Study Blog** :\n**G**ogumi의\n**T**rouble **S**hooting 일지"}]}]]}],["$","div",null,{"className":"post-container","children":["$","$L7",null,{"initialPosts":"$8"}]}]]}]],null]]},[null,["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"}]}],["$","body",null,{"children":["$","div",null,{"className":"page-wrapper","children":[["$","$Le",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lf",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":[["$","link","0",{"rel":"stylesheet","href":"/Blog/_next/static/css/1a2bc1315f96f886.css","precedence":"next","crossOrigin":""}]]}],["$","div",null,{"className":"footer-wrapper","children":["$","footer",null,{"className":"page-footer","children":"copyright © 2024 by NerdAnimals"}]}]]}]}]]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/Blog/_next/static/css/ef2b8d8a3b83e974.css","precedence":"next","crossOrigin":""}]],"$L10"]]]]
+10:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"na-log"}],["$","meta","3",{"name":"description","content":"This is Developer Blog of Nerd-Animals Team"}],["$","meta","4",{"property":"og:title","content":"na-log"}],["$","meta","5",{"property":"og:description","content":"This is Developer Blog of Nerd-Animals Team"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"na-log"}],["$","meta","8",{"name":"twitter:description","content":"This is Developer Blog of Nerd-Animals Team"}],["$","link","9",{"rel":"icon","href":"/Blog/favicon.ico","type":"image/x-icon","sizes":"64x64"}]]
 1:null
