@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: /write
 
-Sitemap: https://chjw956.github.io/Blog/sitemap.xml
+Sitemap: https://chjw956.github.io/sitemap.xml
