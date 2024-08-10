@@ -3,28 +3,34 @@
 6:I[25250,["8792","static/chunks/8792-3277e8775fd13922.js","7894","static/chunks/app/(contents)/layout-658a8909d26150a2.js"],""]
 7:I[52148,["8792","static/chunks/8792-3277e8775fd13922.js","7894","static/chunks/app/(contents)/layout-658a8909d26150a2.js"],""]
 4:["slug","not-found","c"]
-8:T2dd3,    
-# [알고리즘] Stack 2
+8:T3373,    
+# <span style="background-color:#dbff93">[알고리즘] Stack</span>
 
-<aside>💡 **계산기 1 과 계산기 2 의 정확한 의미**
-
-- 계산기1 : 전위 표기법을 후위 표기법으로 전환해주는 계산기
-- 계산기2 : 후위 표기법으로 변환된 계산식을 계산하여 결과값을 출력하는 계산기</aside>
-<br/>
 
 ## 목차
-[[🧮 계산기1]](#🧮-계산기1)
-[[🧮 계산기2]](#🧮-계산기2)
-[[🚀 백트래킹 (Backtracking) 기법]](#🚀-백트래킹-(Backtracking)-기법)
-[[🎯부분집합]](#🎯-부분집합-(Powerset))
-[[🙄 순열]](#🙄-순열)
-[[💀 분할 정복 알고리즘](#💀-분할-정복-알고리즘)
-[[📑 (연습문제) 수식문자열을 후위식으로 변환]](#📑-(연습문제)-수식문자열을-후위식으로-변환)
+[🧮<U>계산기1</U> - 중위 표기법을 후위 표기법으로!](#🧮-계산기1)
+[🧮<U>계산기2</U> - 후위 표기법을 계산해보자!](#🧮-계산기2)
+[🚀<U>백트래킹(Backtracking)기법</U> - 해결할 수 없다면 되돌아가자! ](#🚀-백트래킹-(Backtracking)-기법)
+[🎯<U>부분집합</U> - 부분집합 출력 코드를 구현하는 여러 방법을 알아보자! ](#🎯-부분집합-(Powerset))
+[🙄<U>순열</U> - 순열 생성을 구현하는 여러 방법을 알아보자! ](#🙄-순열)
+[💀<U>분할 정복 알고리즘</U> - 분할 정복을 알아보자! ](#💀-분할-정복-알고리즘)
+[📑<U>(연습문제)</U> - 이제 연습문제를 풀어보자! ](#📑-(연습문제)-수식문자열을-후위식으로-변환)
 
+---
+
+<br/>
+<aside>💡 **계산기 1 과 계산기 2 의 정확한 의미**
+
+- 계산기1 : 중위 표기법을 후위 표기법으로 전환해주는 계산기
+- 계산기2 : 후위 표기법으로 변환된 계산식을 계산하여 결과값을 출력하는 계산기</aside>
 
 <br/>
 
 ## 🧮 계산기1
+
+<details>
+<summary style="color : gray; list-style-type: none;">🗨️ 계산기1 내용 보기</summary>
+<div markdown="1">
 
 계산식이 문자열로 주어질 때, 스택(Stack)을 이용해 결과 값을 계산
 
@@ -84,10 +90,19 @@ else
 <br/>
 
 <aside> 영상 넣기</aside>
+</div>
+</details>
 
-<br/>    
+<br/> 
+
+
+
 
 ## 🧮 계산기2
+
+<details>
+<summary style="color : gray; list-style-type: none;">🗨️ 계산기2 내용 보기</summary>
+<div markdown="1">
 
 후위 표기법의 수식을 스택을 이용하여 계산
 
@@ -100,9 +115,21 @@ else
 
 ![Untitled](https://github.com/user-attachments/assets/4dfe49b1-0a2a-4f12-b4ba-bb5e1a0b32bf)
 
+
+</div>
+</details>   
+
 <br>
 
+
+
+
 ## 🚀 백트래킹 (Backtracking) 기법
+
+<details>
+<summary style="color : gray; list-style-type: none;">🗨️ 백트래킹 내용 보기</summary>
+<div markdown="1">
+
 어떤 노드의 유망성(promising)을 점검한 후에 유망하지 않다고 판단되면 그 노드의 부모로 되돌아가(backtracking) 다음 자식 노드를 탐색하는 기법
 
 -> *해를 찾는 도중에 막히면 (즉, 해가 아니면) 되돌아가서 다시 해를 찾아가는 기법*
@@ -161,10 +188,20 @@ def checknode (v):            # node
 > **가지치기(Prunning)**
 > 유망하지 않는 노드가 포함되는 경로는 더 이상 고려하지 않음
 
+</div>
+</details>
+
 <br/>
 
 
+
+
 ## 🎯 부분집합 (Powerset)
+
+<details>
+<summary style="color : gray; list-style-type: none;">🗨️ 부분집합 내용 보기</summary>
+<div markdown="1">
+
 어떤 집합의 공집합과 자기자신을 포함한 모든 부분집합을 powerset이라고 하며, 구하고자 하는 어떤 집합의 원소 개수가 n인 경우 부분집합의 개수는 $2^n$개이다.
 
 ### ✔ 비트맵을 활용한 부분집합 생성 및 부분집합의 합 구하기
@@ -204,9 +241,6 @@ powerset([None] * N ,0)
 ![image](https://github.com/user-attachments/assets/69adff8e-e7a9-4211-aec4-abf64b5f7207)![image](https://github.com/user-attachments/assets/bb193c8d-eee6-48ea-b9d5-f90cd818682c)![image](https://github.com/user-attachments/assets/bd9e3527-5b0e-49a9-a510-e6ce464b7e4c)![image](https://github.com/user-attachments/assets/ea366cc3-1477-4be3-b8c4-f414c6bf31fc)
 
 
-
-
-
 <br/>
 
 ### ✔ 부분집합을 구하는 백트래킹(backtracking) 알고리즘
@@ -237,9 +271,20 @@ backtrack(a, 0, 3)
 
 ```
 
+</div>
+</details>
+
 <br/>
 
+
+
+
 ## 🙄 순열
+
+<details>
+<summary style="color : gray; list-style-type: none;">🗨️ 순열 내용 보기</summary>
+<div markdown="1">
+
 집합 {1, 2, 3}의 모든 순열을 생성해보자
 ### ✔ 간단하게 순열 생성
 ```python
@@ -286,8 +331,21 @@ a = [0] * NMAX
 backtrack(a, 0, 3)
 ```
 ![image](https://github.com/user-attachments/assets/946cfbf3-e4d3-4620-b373-56b9ce590845)
+
+</div>
+</details>
+
 <br/>
+
+
+
+
+
 ## 💀 분할 정복 알고리즘
+
+<details>
+<summary style="color : gray; list-style-type: none;">🗨️ 분할 정복 알고리즘 내용 보기</summary>
+<div markdown="1">
 
 <aside>
 
@@ -321,10 +379,20 @@ def Power(Base, Exponent):
          return (NewBase * NewBase) * Base
 ```
 
+</div>
+</details>
 
 <br/>
 
+
+
+
 ## 📑 (연습문제) 
+
+<details>
+<summary style="color : gray; list-style-type: none;">🗨️ 연습문제 풀어 보기</summary>
+<div markdown="1">
+
 
 - **수식문자열을 후위식으로 변환하시오.**
     - 2 + 3 * 4 / 5
@@ -336,11 +404,15 @@ def Power(Base, Exponent):
     * 내 답안: 
 
 - **순열 문제에서의 가지치기**
-    - [SWEA] 4881. 배열 최소 합 *(순열 생성 과정을 그려보시오)*9:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+    - [SWEA] 4881. 배열 최소 합 *(순열 생성 과정을 그려보시오)*
+
+</div>
+</details>
+9:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
 a:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
 b:{"display":"inline-block"}
 c:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
-0:["dHu445i-jPa4MtY3Dcr0m",[[["",{"children":["(contents)",{"children":["post",{"children":[["slug","not-found","c"],{"children":["__PAGE__?{\"slug\":[\"not-found\"]}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["(contents)",{"children":["post",{"children":[["slug","not-found","c"],{"children":["__PAGE__",{},["$L1","$L2",null]]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(contents)","children","post","children","$4","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1a2bc1315f96f886.css","precedence":"next","crossOrigin":""}]]}]]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(contents)","children","post","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}]]},[null,[["$","div",null,{"className":"page-header-wrapper","children":["$","header",null,{"className":"page-header","children":[["$","div",null,{"className":"home-section","children":["$","$L6",null,{"className":"link","href":"/","children":"na-log"}]}],["$","div",null,{"className":"category-section","children":[["$","$L6",null,{"className":"link","href":"/write","children":"write"}],["$","$L6",null,{"className":"link","href":"/about","children":"about"}],["$","$L7",null,{"initialPosts":[{"frontMatter":{"title":"SSAFY - [알고리즘] Stack","summary":"스택(Stack)을 이용한 백트래킹(Backtracking), 부분집합, 순열에 대해 알아본다.","author":"gogumi","tags":["SSAFY","알고리즘","stack","계산기","중위 표기법","후위 표기법","백트래킹","Backtracking","부분집합","Powerset","순열"],"date":"$D2024-08-09T00:00:00.000Z","slug":["stack2"]},"content":"$8"}]}]]}]]}]}],["$","main",null,{"className":"contents-wrapper","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(contents)","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]],null]]},[null,["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"}]}],["$","body",null,{"children":["$","div",null,{"className":"page-wrapper","children":[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$9","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$a","children":"404"}],["$","div",null,{"style":"$b","children":["$","h2",null,{"style":"$c","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],["$","div",null,{"className":"footer-wrapper","children":["$","footer",null,{"className":"page-footer","children":"copyright © 2024 by NerdAnimals"}]}]]}]}]]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ef2b8d8a3b83e974.css","precedence":"next","crossOrigin":""}]],"$Ld"]]]]
+0:["Pb2l0l_4g0LQrbFZzOTGM",[[["",{"children":["(contents)",{"children":["post",{"children":[["slug","not-found","c"],{"children":["__PAGE__?{\"slug\":[\"not-found\"]}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["(contents)",{"children":["post",{"children":[["slug","not-found","c"],{"children":["__PAGE__",{},["$L1","$L2",null]]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(contents)","children","post","children","$4","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1a2bc1315f96f886.css","precedence":"next","crossOrigin":""}]]}]]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(contents)","children","post","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}]]},[null,[["$","div",null,{"className":"page-header-wrapper","children":["$","header",null,{"className":"page-header","children":[["$","div",null,{"className":"home-section","children":["$","$L6",null,{"className":"link","href":"/","children":"gogumi's study log"}]}],["$","div",null,{"className":"category-section","children":[["$","$L6",null,{"className":"link","href":"/write","children":"write"}],["$","$L6",null,{"className":"link","href":"/about","children":"about"}],["$","$L7",null,{"initialPosts":[{"frontMatter":{"title":"[알고리즘] Stack","summary":"스택(Stack)을 이용한 백트래킹(Backtracking), 부분집합, 순열에 대해 알아보자!","author":"gogumi","tags":["알고리즘","stack","계산기","중위 표기법","후위 표기법","백트래킹","Backtracking","부분집합","Powerset","순열"],"date":"$D2024-08-09T00:00:00.000Z","slug":["stack2"]},"content":"$8"}]}]]}]]}]}],["$","main",null,{"className":"contents-wrapper","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(contents)","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]],null]]},[null,["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"}]}],["$","body",null,{"children":["$","div",null,{"className":"page-wrapper","children":[["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$9","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$a","children":"404"}],["$","div",null,{"style":"$b","children":["$","h2",null,{"style":"$c","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],["$","div",null,{"className":"footer-wrapper","children":["$","footer",null,{"className":"page-footer","children":"copyright © 2024 by NerdAnimals"}]}]]}]}]]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ef2b8d8a3b83e974.css","precedence":"next","crossOrigin":""}]],"$Ld"]]]]
 2:E{"digest":"NEXT_NOT_FOUND"}
 d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Not Found"}],["$","meta","3",{"property":"og:title","content":"Not Found"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"Not Found"}],["$","link","6",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"64x64"}]]
 1:null
